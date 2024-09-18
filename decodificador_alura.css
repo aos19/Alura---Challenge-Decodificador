@@ -185,7 +185,7 @@ body
 
 /* RESPONSIVO */
 
-@media (max-width: 380px) and (orientation: portrait)
+@media (max-width: 320px) and (orientation: portrait)
 {
     .texto_original
     {
