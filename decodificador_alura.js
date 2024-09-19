@@ -37,3 +37,9 @@ function descriptografar()
     // Exibindo o texto original na div texto_original
     document.querySelector(".texto_cript").innerHTML = `<p>${textoEntrada}</p>`;
 }
+
+function copyToClipBoard()
+{
+    
+}
+
