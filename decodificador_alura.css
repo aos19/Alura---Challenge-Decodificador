@@ -163,25 +163,25 @@ body
     gap: 20px;
 }
 
-/* .copiar
+.copiar
 {   
     font-family: 'Courier New', Courier, monospace;
     align-self: flex-end;
     margin-top: 60px;
     margin-left: 1080px;
     border-radius: 15px;
-    font-size: 10pt;
-    font-size: 15pt;
+    font-size: 12pt;
     color: darkblue;
-    padding: 15px;
+    padding: 10px;
     border: 1.5px inset darkblue;
+    display: none;
 }
 
 .copiar:hover
 {
     border: outset 1.5px #2BFDBE;
 }
-*/
+
 
 /* RESPONSIVO */
 

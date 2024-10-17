@@ -19,6 +19,10 @@ function criptografar()
     // Escondendo as infos iniciais da div de saída
     document.getElementById("hideArea1").style.display = "none"; 
     document.getElementById("hideArea2").style.display = "none";
+
+    // Fazendo o botão de copiar aparecer
+    let botaoCopiar = document.querySelector(".copiar");
+    botaoCopiar.style.display = "block";
 }
 
 
@@ -36,4 +40,17 @@ function descriptografar()
 
     // Exibindo o texto original na div texto_original
     document.querySelector(".texto_cript").innerHTML = `<p>${textoEntrada}</p>`;
+}
+
+
+function botaoCopiar()
+{
+    // Apanhando o texto criptografado
+    let textoRev = document.querySelector(".texto_cript").value;
+    textoRev.select();
+    textoRev.setSelectionRange(0, 500);
+
+    // Ação que copia para a área de transferência
+    navigator.clipboard.writeText("copy");   
+    alert("Texto copiado!");
 }
