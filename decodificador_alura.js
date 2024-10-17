@@ -42,6 +42,7 @@ function descriptografar()
     document.querySelector(".texto_cript").innerHTML = `<p>${textoEntrada}</p>`;
 }
 
+function botaoCopiar()
 {
     // Apanhando o texto criptografado
     let textoRev = document.querySelector(".texto_cript").value;
